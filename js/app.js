@@ -1,5 +1,5 @@
 var audio_context; // establish as global var
-var numBins = 1024; // must divide evenly into the float32 array size
+var numBins = 2048; // must divide evenly into the float32 array size
 
 $(document).ready(function() {
 	audioRecorder.boot();
